@@ -37,6 +37,9 @@ extern const char base58_char_list[58];
 extern const struct BIP32TestVector test_vectors[12];
 
 extern void bip32SeedToNode(unsigned char *master_node, const unsigned char *seed, const unsigned int seed_length);
-extern bool bip32DerivePrivate(BigNum256 out, const unsigned char *master_node, const unsigned long *path, const unsigned int path_length);
+extern bool bip32DerivePrivate(BigNum256 out,
+							   const unsigned char *master_node,
+							   const unsigned long *path,
+							   const unsigned int path_length);
 
 #endif // #ifndef BIP32_H_INCLUDED

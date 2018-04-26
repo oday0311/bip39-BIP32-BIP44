@@ -13,7 +13,7 @@
 #define COMMON_H_INCLUDED
 
 
-
+#include <cstdint>
 
 //#include <stddef.h>
 //
@@ -32,13 +32,13 @@ typedef unsigned short uint16_t;
 /** Signed 16 bit integer. */
 typedef signed short int16_t;
 /** Unsigned 32 bit integer. */
-typedef unsigned long uint32_t;
+//typedef unsigned long uint32_t;
 /** Signed 32 bit integer. */
-typedef signed long int32_t;
+//typedef signed long int32_t;
 /** Unsigned 64 bit integer. */
-typedef unsigned __int64 uint64_t;
+//typedef unsigned __int64 uint64_t;
 /** Signed 64 bit integer. */
-typedef signed __int64 int64_t;
+//typedef signed __int64 int64_t;
 
 //#else
 //

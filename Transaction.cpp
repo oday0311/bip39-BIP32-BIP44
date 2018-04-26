@@ -1,4 +1,4 @@
-#include "includeall.h"
+#include "includeALL.h"
 
 	unsigned char master_node[NODE_LENGTH];
 ///** The maximum size of a transaction (in bytes) which parseTransaction()

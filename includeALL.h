@@ -19,10 +19,10 @@
 #include "bip39_english.h"
 #include "pbkdf2.h"
 #include "bip39.h"
-#include "transaction.h"
+#include "Transaction.h"
 #include "hmac_drbg.h"
-#include "parsetransaction.h"
+#include "parseTransaction.h"
 #include <stdio.h>
-
+#include <cstdint>
 
 #endif

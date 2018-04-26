@@ -4,8 +4,6 @@
 
 
 
-
-
 /** Characters for the base 58 representation of numbers. */
 const char base58_char_list[58] = {
 '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A',
@@ -234,7 +232,12 @@ void bip32SeedToNode(unsigned char *master_node, const unsigned char *seed, cons
   * \param path_length Number of steps through derivation tree. This may be 0.
   * \return false on success, true on error.
   */
-bool bip32DerivePrivate(BigNum256 out, const uint8_t *master_node, const uint32_t *path, const unsigned int path_length)
+
+
+bool bip32DerivePrivate(BigNum256 out,
+						const unsigned char * master_node,
+						const unsigned long * path,
+						const unsigned int path_length)
 {
 	uint8_t current_node[NODE_LENGTH];
 	uint8_t temp[NODE_LENGTH];

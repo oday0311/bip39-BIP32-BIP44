@@ -1,0 +1,3 @@
+/Users/alex/Desktop/CL_BIP39_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alex/Desktop/CL_BIP39_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alex/Desktop/CL_BIP39_project/cmake-build-debug/CMakeFiles/CL_BIP39_project.dir

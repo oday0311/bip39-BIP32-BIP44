@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Transaction.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/bip39_chinesesimplified.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/main.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/masterpublicKey.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/parseTransaction.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/parseTransaction.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/sha256.cpp" charset="GB2312" />
+  </component>
+</project>

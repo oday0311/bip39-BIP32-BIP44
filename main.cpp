@@ -117,7 +117,7 @@ unsigned char wn[]={0xaa,0x47,0x07,0x8a,0x81,0xc6,0x87,0x82,0x24,0xb0,0xcf,0xc9,
 	printf("\r\n");
 
 	
-      bip32DerivePrivate(out, master_node,TxPathData,5);//通过master node和path生成child private key
+     // bip32DerivePrivate(out, master_node,TxPathData,5);//通过master node和path生成child private key
 	printf("child private:");
 	bigPrintVariableSize(out, 32, false);
 	    printf("\r\n");
@@ -247,7 +247,7 @@ static   unsigned char w=0;
 
 }
 
-void main(void)
+int main(void)
 {
 //	unsigned char expected_bytes[SERIALISED_BIP32_KEY_LENGTH];
 //	unsigned char master_node[NODE_LENGTH];
@@ -337,12 +337,12 @@ void main(void)
 
 
 
-//	test1();
+	test1();
 //  test2();
 
-	test3();
-	while(1)
-	{
-	test3();
-	}
+//	test3();
+
+
+	return 0;
+
 }
